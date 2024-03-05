@@ -1,4 +1,4 @@
-//import Logo from '../../assets/sophiaheader.jpeg';
+import rowland from '../navbar/rowland.jpeg'
 import data from './data';
 import { IoIosColorPalette } from "react-icons/io";
 import { useModalContext } from '../../context/modal-context';
@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="container nav__container">
         <a href="index.html" className='nav__logo'>
-          <img src="" alt="Logo" />
+          <img src={rowland} alt="Logo" />
         </a>
         <ul className='nav__menu'>
           {

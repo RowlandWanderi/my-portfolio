@@ -9,7 +9,7 @@ const data = [
         image: Image1,
         title: "Pet Haven (Full stack)",
         desc: "An e-commerce platform for adopting pets built using Flask, HTML/CSS, JavaScript and PosgreSQL",
-        demo: 'https://jovial-creponne-97cf89.netlify.app/',
+        demo: 'https://flourishing-shortbread-7fca70.netlify.app/',
         github: 'https://github.com/RowlandWanderi/Pet-Store-App'
     },
     {

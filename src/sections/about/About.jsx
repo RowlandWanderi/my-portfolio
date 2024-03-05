@@ -1,5 +1,5 @@
-//import AboutImage from '../../assets/realsophia2.jpeg';
-//import CV from '../../assets/terryResume.pdf'
+import AboutImage from '../about/rowland.jpeg';
+import CV from '../about/RowlandCurrentCv.pdf'
 import { HiDownload } from "react-icons/hi";
 import data from './data';
 import Card from '../../components/Card';
@@ -11,7 +11,7 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__left">
                     <div className="about__potrait">
-                        <img src="" alt="About pic" />
+                        <img src={AboutImage} alt="About pic" />
                     </div>
                 </div>
                 <div className="about__right">
@@ -33,7 +33,7 @@ const About = () => {
                         I'm Rowland Wanderi, representing Nairobi, Kenya – your go-to guy for all things web development! As a full-stack web developer armed with a Certificate in Software Engineering, my mission is clear: to get your business rocking online with top-notch design and all the bells and whistles for a smooth digital operation.
                         I'm all about bringing your business to life in the online world. Let's chat about your project specifics, and we can dive into making your digital dreams a reality. Curious about my background? Check out the details in my resume below!
                     </p>
-                    <a href="www." download className='btn primary'>Download CV <HiDownload/></a>
+                    <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
                 </div>
             </div>
         </section>
