@@ -1,5 +1,5 @@
 import AboutImage from '../about/rowland.jpeg';
-import CV from '../about/Rowland Wanderi.pdf'
+import CV from '/home/rowland/my-portfolio/src/sections/about/RowlandWanderi .pdf'
 import { HiDownload } from "react-icons/hi";
 import data from './data';
 import Card from '../../components/Card';
